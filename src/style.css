@@ -24,13 +24,7 @@
 
 
 }
-h1{
- height:90px;
- margin-top: 20px;
- font-family: 800;
-  background-color: aqua;
 
-}
 #btn{
     height: 138px;
   font-size: 40px;
@@ -40,4 +34,29 @@ h1{
 }
 #content :hover{
  transform: rotateY(10deg);
+}
+
+@media (max-width:400px){
+  #inputId{
+  margin-top: 48px;
+  width: 261px;
+  height: 70px;
+  font-size: 25px;
+  padding-right: 13px;
+}
+#btn{
+  height: 60px;
+font-size: 17px;
+width: 65px;
+}
+#content{
+  margin-bottom: 50px;
+  margin-top: 20px;
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
 }
